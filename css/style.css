@@ -1,5 +1,5 @@
-/* My Website - Aditya Saravanan
-My website, made using HTML, CSS, and JavaScript */
+/* My Website - Aditya Saravanan */
+/* My website, made using HTML, CSS, and JavaScript */
 
 body {
     margin:0;
@@ -37,4 +37,9 @@ header .intro-text {
 footer ul {
     display: flex;
     align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+footer .nav-code-windows {
+    margin-bottom: -27.5em;
 }
