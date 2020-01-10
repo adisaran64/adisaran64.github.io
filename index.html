@@ -28,7 +28,7 @@
 
                 <section class="main" id="main-text" style="text-align: center;">
                     <div style="display: inline-block; text-align: left;">
-                        <p class="name-text" id="my-name" onclick="test();">Aditya Saravanan</p>
+                        <p class="name-text" id="my-name">Aditya Saravanan</p>
                         <p class="sub-text" id="typewriter">Undergraduate at <span style="color:yellow">UC Berkeley</span></p>
                     </div>
                 </section>
@@ -37,6 +37,7 @@
 
             <div class="page" id="resumepage">
 
+                Resume
 
             </div>
 
@@ -48,22 +49,22 @@
                     <ul>
                         <li id="home-py" class="nav-code-windows">
                             <a href='#'>
-                                <img src = "images/home.svg" alt="Main Page">
+                                <img src = "images/home.svg" alt="Main Page" onclick="showPage('homepage');">
                             </a>
                         </li>
                         <li id="resume-java" class="nav-code-windows">
                             <a href='#'>
-                                <img src = "images/resume.svg" alt="Resume">
+                                <img src = "images/resume.svg" alt="Resume" onclick="showPage('resumepage');">
                             </a>
                         </li>
                         <li id="portfolio-c" class="nav-code-windows">
                             <a href='#'>
-                                <img src = "images/portfolio.svg" alt="Portfolio">
+                                <img src = "images/portfolio.svg" alt="Portfolio" onclick="showPage('portfoliopage');">
                             </a>
                         </li>
-                        <li id="links-html" class="nav-code-windows">
+                        <li id="links-html" class="nav-code-windows" onclick="showPage('linkspage');">
                             <a href='#'>
-                                <img src = "images/links.svg" alt="Links">
+                                <img src = "images/links.svg" alt="Links" onclick="test();">
                             </a>
                         </li>
                     </ul>

@@ -43,3 +43,11 @@ footer ul {
 footer .nav-code-windows {
     margin-bottom: -27.5em;
 }
+
+#homepage {
+    display: none;
+}
+
+#resumepage {
+    display: block;
+}
