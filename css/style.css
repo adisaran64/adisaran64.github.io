@@ -1,0 +1,40 @@
+/* My Website - Aditya Saravanan
+My website, made using HTML, CSS, and JavaScript */
+
+body {
+    margin:0;
+    background-color: #142239;
+    font-family: 'NSimSun';
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .intro-text {
+    font-size: 1.15em;
+    text-align: center;
+    line-height: 2.1em;
+    margin-top: 3.5%
+}
+
+.main {
+    margin-top: .5%;
+}
+
+.main .name-text {
+    font-size: 7em;
+    margin-bottom: -.45em;
+}
+
+.main .sub-text {
+    font-size: 3em;
+}
+
+footer ul {
+    display: flex;
+    align-items: flex-end;
+}
