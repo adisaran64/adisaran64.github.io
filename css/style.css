@@ -43,11 +43,10 @@ footer ul {
     line-height:1.2em;
 }
 
-#homepage header {
+#homepage .homepageflexbox {
     display: flex;
     justify-content: space-between;
 }
-
 
 
 
@@ -64,7 +63,7 @@ footer ul {
 }
 
 #resumepage .pdf {
-    margin-top:2.3em;
+    margin-top: 2.3em;
     margin-right: 2.7em;
     width: 55em;
 }
@@ -73,10 +72,67 @@ footer ul {
     height: 115vh;
 }
 
-#resumepage header {
+#resumepage .resumepageflexbox {
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+#portfoliopage .title {
+    text-align: left;
+    margin-left: 2.7em;
+    margin-top: -5em;
+}
+
+#portfoliopage .portfolio-text {
+    font-size: 7em;
+}
+
+#portfoliopage .sub-text {
+    width: 27em;
+    font-size: 1.15em;
+    text-align: right;
+    margin-top: 2.3em;
+    margin-right: 2.7em;
+    line-height:1.2em;
+}
+
+#portfoliopage .portfoliopageflexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+#linkspage .title {
+    text-align: left;
+    margin-left: 2.7em;
+    margin-top: -5em;
+}
+
+#linkspage .links-text {
+    font-size: 7em;
+}
+
+#linkspage .sub-text {
+    width: 25em;
+    font-size: 1.15em;
+    text-align: right;
+    margin-top: 2.3em;
+    margin-right: 2.7em;
+    line-height:1.2em;
+}
+
+#linkspage .linkspageflexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 
@@ -113,5 +169,13 @@ footer ul {
 }
 
 #resumepage {
+    display: none;
+}
+
+#portfoliopage {
+    display: none;
+}
+
+#linkspage {
     display: none;
 }
