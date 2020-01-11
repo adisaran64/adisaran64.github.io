@@ -1,0 +1,206 @@
+/* My Website - Aditya Saravanan */
+/* My website, made using HTML, CSS, and JavaScript */
+
+
+body {
+    margin: 0 0 100px;
+    padding: 0;
+    background-color: #142239;
+    font-family: 'NSimSun'; sans-serif;
+    color: #FFFFFF;
+    overflow: scroll;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#homepage .main {
+    text-align: left;
+    margin-left: 2.7em;
+    margin-top: -5em;
+}
+
+#homepage .main .name-text {
+    font-size: 7em;
+    margin-bottom:-.45em;
+}
+
+#homepage .main .typewrite-text {
+    font-size: 3em;
+}
+
+#homepage .sub-text {
+    width: 27em;
+    font-size: 1.15em;
+    text-align: right;
+    margin-top: 2.3em;
+    margin-right: 2.7em;
+    line-height:1.2em;
+}
+
+#homepage .homepageflexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+#resumepage .title {
+    text-align: left;
+    margin-left: 2.7em;
+    margin-top: -5em;
+}
+
+#resumepage .resume-text {
+    font-size: 7em;
+}
+
+#resumepage .pdf {
+    margin-top: 2.3em;
+    margin-right: 2.7em;
+    margin-bottom: 8em;
+    width: 55em;
+}
+
+#resumepage .pdf .my-resume {
+    width: 100%;
+    height: 115vh;
+}
+
+#resumepage .resumepageflexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+#portfoliopage .title {
+    text-align: left;
+    margin-left: 2.7em;
+    margin-top: -5em;
+}
+
+#portfoliopage .portfolio-text {
+    font-size: 7em;
+}
+
+#portfoliopage .sub-text {
+    width: 27em;
+    font-size: 1.15em;
+    text-align: right;
+    margin-top: 2.3em;
+    margin-right: 2.7em;
+    line-height:1.2em;
+}
+
+#portfoliopage .portfoliopageflexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+#linkspage .title {
+    text-align: left;
+    margin-left: 2.7em;
+    margin-top: -5em;
+}
+
+#linkspage .links-text {
+    font-size: 7em;
+}
+
+#linkspage .sub-text {
+    width: 25em;
+    font-size: 1.15em;
+    text-align: right;
+    margin-top: 2.3em;
+    margin-right: 2.7em;
+    line-height:1.2em;
+}
+
+#linkspage .linkspageflexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    margin: 0 0 22.5em;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 22.5em;
+    width: 100%;
+}
+
+nav ul  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#homepage {
+    display: block;
+}
+
+#resumepage {
+    display: none;
+}
+
+#portfoliopage {
+    display: none;
+}
+
+#linkspage {
+    display: none;
+}
