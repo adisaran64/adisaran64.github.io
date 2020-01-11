@@ -2,8 +2,13 @@
 /* My website, made using HTML, CSS, and JavaScript */
 
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
-    margin: 0 0 100px;
+    margin: 0 0 22.5em;
     padding: 0;
     background-color: #142239;
     font-family: 'NSimSun'; sans-serif;
@@ -12,14 +17,16 @@ body {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+width: 0px;
+background: transparent;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
-
-
 
 
 
@@ -51,7 +58,6 @@ ul {
     display: flex;
     justify-content: space-between;
 }
-
 
 
 
@@ -148,6 +154,18 @@ ul {
 #linkspage .linkspageflexbox {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 6em;
+}
+
+#linkspage .navflexbox{
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+#linkspage .navflexbox ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 
@@ -159,15 +177,7 @@ ul {
 
 
 
-html {
-    position: relative;
-    min-height: 100%;
-}
 
-
-body {
-    margin: 0 0 22.5em;
-}
 
 footer {
     position: absolute;
@@ -177,7 +187,7 @@ footer {
     width: 100%;
 }
 
-nav ul  {
+footer nav ul  {
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
