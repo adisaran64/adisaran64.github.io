@@ -1,38 +1,85 @@
 /* My Website - Aditya Saravanan */
 /* My website, made using HTML, CSS, and JavaScript */
 
+
 body {
-    margin:0;
+    margin: 0;
+    padding: 0;
     background-color: #142239;
-    font-family: 'NSimSun';
+    font-family: 'NSimSun'; sans-serif;
     color: #FFFFFF;
 }
 
-ul {
+footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-header .intro-text {
-    font-size: 1.15em;
-    text-align: center;
-    line-height: 2.1em;
-    margin-top: 3.5%
+
+
+
+#homepage .main {
+    text-align: left;
+    margin-left: 2.7em;
+    margin-top: -5em;
 }
 
-.main {
-    margin-top: .5%;
-}
-
-.main .name-text {
+#homepage .main .name-text {
     font-size: 7em;
-    margin-bottom: -.45em;
+    margin-bottom:-.45em;
 }
 
-.main .sub-text {
+#homepage .main .typewrite-text {
     font-size: 3em;
 }
+
+#homepage .sub-text {
+    width: 27em;
+    font-size: 1.15em;
+    text-align: right;
+    margin-top: 2.3em;
+    margin-right: 2.7em;
+    line-height:1.2em;
+}
+
+#homepage header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+#resumepage .title {
+    text-align: left;
+    margin-left: 2.7em;
+    margin-top: -5em;
+}
+
+#resumepage .resume-text {
+    font-size: 7em;
+}
+
+#resumepage .pdf {
+    margin-top:2.3em;
+    margin-right: 2.7em;
+    width: 55em;
+}
+#resumepage .pdf .my-resume {
+    width: 100%;
+    height: 115vh;
+}
+
+#resumepage header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 
 footer ul {
     display: flex;
@@ -40,14 +87,31 @@ footer ul {
     justify-content: space-evenly;
 }
 
-footer .nav-code-windows {
-    margin-bottom: -27.5em;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #homepage {
-    display: none;
+    display: block;
 }
 
 #resumepage {
-    display: block;
+    display: none;
 }
