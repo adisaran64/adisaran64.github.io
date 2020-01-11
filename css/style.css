@@ -9,6 +9,7 @@ body {
     font-family: 'NSimSun'; sans-serif;
     color: #FFFFFF;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 ul {
@@ -16,6 +17,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+
+
 
 
 
@@ -52,7 +56,10 @@ ul {
 
 
 
-#resumepage .title {
+
+
+
+#resumepage .rtitle {
     text-align: left;
     margin-left: 2.7em;
     margin-top: -5em;
@@ -82,7 +89,11 @@ ul {
 
 
 
-#portfoliopage .title {
+
+
+
+
+#portfoliopage .ptitle {
     text-align: left;
     margin-left: 2.7em;
     margin-top: -5em;
@@ -111,7 +122,11 @@ ul {
 
 
 
-#linkspage .title {
+
+
+
+
+#linkspage .ltitle {
     text-align: left;
     margin-left: 2.7em;
     margin-top: -5em;
