@@ -2,6 +2,9 @@
 /* My website, made using HTML, CSS, and JavaScript */
 
 
+/* Basic Construction */
+
+
 html {
     position: relative;
     min-height: 100%;
@@ -16,9 +19,10 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
-width: 0px;
-background: transparent;
+    width: 0px;
+    background: transparent;
 }
 
 ul {
@@ -33,6 +37,7 @@ a {
 }
 
 
+/* Homepage Construction */
 
 
 #homepage .main {
@@ -65,9 +70,7 @@ a {
 }
 
 
-
-
-
+/* Resume Page Construction */
 
 
 #resumepage .rtitle {
@@ -83,7 +86,7 @@ a {
 #resumepage .pdf {
     margin-top: 2.3em;
     margin-right: 2.7em;
-    margin-bottom: 8em;
+    margin-bottom: 10em;
     width: 55em;
 }
 
@@ -98,10 +101,7 @@ a {
 }
 
 
-
-
-
-
+/* Portfolio Page Construction */
 
 
 #portfoliopage .ptitle {
@@ -120,7 +120,8 @@ a {
 }
 
 #portfoliopage .folderflexbox {
-    margin-bottom: 37.5em;
+    margin-top: -4em;
+    margin-bottom: 32em;
 }
 
 #portfoliopage .folderflexbox ul{
@@ -133,10 +134,7 @@ a {
 }
 
 
-
-
-
-
+/* Links Page Construction */
 
 
 #linkspage .ltitle {
@@ -165,13 +163,7 @@ a {
 }
 
 
-
-
-
-
-
-
-
+/* Footer Construction */
 
 
 footer {
