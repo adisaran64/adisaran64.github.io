@@ -2,8 +2,6 @@
 // My website, made using HTML, CSS, and JavaScript
 
 
-
-
 function showPage(pageName) {
     var pageToShow = document.getElementById(pageName);
     if (!pageToShow) {
