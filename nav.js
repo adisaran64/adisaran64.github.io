@@ -13,6 +13,6 @@ function showPage(pageName) {
         allPages[i].style.display = 'none';
     }
     tl.progress(0).clear();
-    playAnimation(pageName, tl);
-    pageToShow.style.display = 'block';
+    playAnimation(pageName);
+    pageToShow.style.display = "block";
 }
