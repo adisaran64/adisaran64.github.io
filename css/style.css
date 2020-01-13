@@ -147,7 +147,7 @@ a {
     font-size: 7em;
 }
 
-#linkspage .sub-text {
+#linkspage .sub-text2 {
     width: 25em;
     font-size: 1.15em;
     text-align: right;
@@ -171,7 +171,7 @@ footer {
     left: 0;
     bottom: 0;
     height: 22.5em;
-    width: 100%;
+    width: 100%; 
 }
 
 footer nav ul  {
@@ -180,25 +180,7 @@ footer nav ul  {
     justify-content: space-evenly;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Beginning Panel Setup */
 
 
 #homepage {

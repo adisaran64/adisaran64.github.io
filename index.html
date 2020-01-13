@@ -10,7 +10,6 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Aditya Saravanan</title>
         <link rel="stylesheet" href="css/style.css">
-        <script src="nav.js"></script>
     </head>
 
     <body>
@@ -84,17 +83,17 @@
                     <ul>
                         <li id="pathfinder" class="pathfinderportfolio">
                             <a href='#'>
-                                <img src = "images/pathfinder.svg" alt="Pathfinder Project">
+                                <img src = "images/pathfinder.svg" alt="Pathfinder Project" class="pathfinderfolder">
                             </a>
                         </li>
                         <li id="folder2" class="folder2portfolio">
                             <a href='#'>
-                                <img src = "images/folder.svg" alt="Second Project">
+                                <img src = "images/folder.svg" alt="Second Project" class="secondfolder">
                             </a>
                         </li>
                         <li id="folder3" class="folder3portfolio">
                             <a href='#'>
-                                <img src = "images/folder.svg" alt="Third Project">
+                                <img src = "images/folder.svg" alt="Third Project" class="thirdfolder">
                             </a>
                         </li>
                     </ul>
@@ -104,17 +103,17 @@
                     <ul>
                         <li id="folder4" class="pathfinderportfolio">
                             <a href='#'>
-                                <img src = "images/folder.svg" alt="Pathfinder Project">
+                                <img src = "images/folder.svg" alt="Pathfinder Project" class="fourthfolder">
                             </a>
                         </li>
                         <li id="folder5" class="folder2portfolio">
                             <a href='#'>
-                                <img src = "images/folder.svg" alt="Second Project">
+                                <img src = "images/folder.svg" alt="Second Project" class="fifthfolder">
                             </a>
                         </li>
                         <li id="folder6" class="folder3portfolio">
                             <a href='#'>
-                                <img src = "images/folder.svg" alt="Third Project">
+                                <img src = "images/folder.svg" alt="Third Project" class="sixthfolder">
                             </a>
                         </li>
                     </ul>
@@ -138,7 +137,7 @@
                             <p class="links-text" id="links-title">Links</p>
                         </section>
 
-                        <section class="sub-text" id="links-description">
+                        <section class="sub-text2" id="links-description">
                             <p class="first-sentence">LinkedIn: <a href=></a></p>
                             <p class="second-sentence">GitHub:  <a href="https://github.com/adisaran64" target="_blank">github.com/adisaran64</a></p>
                             <p class="third-sentence">Website: adisaran64.com</p>
@@ -158,7 +157,6 @@
 
 
 
-            Tests
 
 
 
@@ -170,29 +168,35 @@
             <footer>
                 <nav>
                     <ul>
-                        <li id="home-py" class="nav-code-windows">
+                        <li id="home-py">
                             <a href='#'>
-                                <img src = "images/home.svg" alt="Main Page" onclick="showPage('homepage');">
+                                <img src = "images/home.svg" alt="Home Page" onclick="showPage('homepage');" class="nav-code-window1">
                             </a>
                         </li>
-                        <li id="resume-java" class="nav-code-windows">
+                        <li id="resume-java">
                             <a href='#'>
-                                <img src = "images/resume.svg" alt="Resume" onclick="showPage('resumepage');">
+                                <img src = "images/resume.svg" alt="Resume" onclick="showPage('resumepage');" class="nav-code-window2">
                             </a>
                         </li>
-                        <li id="portfolio-c" class="nav-code-windows">
+                        <li id="portfolio-c">
                             <a href='#'>
-                                <img src = "images/portfolio.svg" alt="Portfolio" onclick="showPage('portfoliopage');">
+                                <img src = "images/portfolio.svg" alt="Portfolio" onclick="showPage('portfoliopage');" class="nav-code-window3">
                             </a>
                         </li>
-                        <li id="links-html" class="nav-code-windows">
+                        <li id="links-html">
                             <a href='#'>
-                                <img src = "images/links.svg" alt="Links" onclick="showPage('linkspage');">
+                                <img src = "images/links.svg" alt="Links" onclick="showPage('linkspage');" class="nav-code-window4">
                             </a>
                         </li>
                     </ul>
                 </nav>
             </footer>
+
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+            <script src="nav.js"></script>
+            <script src="anim.js"></script>
 
 
 

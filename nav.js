@@ -2,6 +2,8 @@
 // My website, made using HTML, CSS, and JavaScript
 
 
+
+
 function showPage(pageName) {
     var pageToShow = document.getElementById(pageName);
     if (!pageToShow) {
@@ -14,5 +16,26 @@ function showPage(pageName) {
         allPages[i].style.display = 'none';
     }
 
+    tl.progress(0).clear();
+    playAnimation(pageName, tl);
     pageToShow.style.display = 'block';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//stop animatinoss
+//preload pdf
+// homepage type/typewriter
+//resume typewriter
+//portfolio typewriter, hover
+//links typewriter, mail connection
