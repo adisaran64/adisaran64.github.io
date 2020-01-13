@@ -7,7 +7,6 @@ homePageAnimation(tl);
 
 
 function playAnimation(pageName) {
-
     if (pageName == 'homepage') {
         homePageAnimation();
     }
