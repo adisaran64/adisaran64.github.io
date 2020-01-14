@@ -4,6 +4,7 @@
 
 var tl = gsap.timeline();
 homePageAnimation(tl);
+descriptionTypeWriter();
 
 
 function playAnimation(pageName) {
@@ -23,18 +24,21 @@ function playAnimation(pageName) {
 
 
 function homePageAnimation() {
-    tl.fromTo(".sub-text", {opacity:0, y: -60}, {opacity: 1, y: 0, ease: "bounce.out", duration: 1.25});
+    tl.fromTo(".name-text", {opacity: 0, x: -120}, {opacity: 1, x: 0, ease: "circ.out", duration: 1});
+    tl.fromTo(".sub-text", {opacity: 0, y: -60}, {opacity: 1, y: 0, ease: "bounce.out", duration: 1.25}, "-=.75");
     playFooterAnimation();
 }
 
 
 function resumePageAnimation() {
+    resumeTypeForward();
     tl.fromTo(".my-resume", {opacity:0, y: -120}, {opacity: 1, y: 0, ease: "circ.out", duration: 1.25});
     playFooterAnimation("-=.35");
 }
 
 
 function portfolioPageAnimation() {
+    portfolioTypeForward();
     tl.fromTo(".pathfinderfolder", {opacity:0, x: 60, y: -60}, {opacity: 1, x: 0, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25})
                .fromTo(".secondfolder", {opacity:0, y: -60}, {opacity: 1, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1")
                .fromTo(".thirdfolder", {opacity:0, x: -60, y: -60}, {opacity: 1, x: 0, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1")
@@ -46,8 +50,9 @@ function portfolioPageAnimation() {
 
 
 function linksPageAnimation() {
+    linksTypeForward();
     tl.fromTo(".sub-text2", {opacity:0, y: -60}, {opacity: 1, y: 0, ease: "bounce.out", duration: 1.25});
-    playFooterAnimation();
+    playFooterAnimation("-=.4");
 }
 
 

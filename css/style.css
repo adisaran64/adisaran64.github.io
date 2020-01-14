@@ -198,3 +198,58 @@ footer nav ul  {
 #linkspage {
     display: none;
 }
+
+
+/* Cursor Animations */
+
+
+.typewrite-text .typetxt {
+    border-right: .08em solid #FFFFFF;
+    animation: animated-cursor 500ms infinite;
+}
+
+.resume-text .typetxt {
+    border-right: .08em solid #FFFFFF;
+    animation: animated-cursor 1s linear infinite;
+}
+
+.portfolio-text .typetxt {
+    border-right: .08em solid #FFFFFF;
+    animation: animated-cursor 1s linear infinite;
+}
+
+.links-text .typetxt {
+    border-right: .08em solid #FFFFFF;
+    animation: animated-cursor 1s linear infinite;
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: #FFFFFF;}
+  to{border-right-color: transparent;}
+}
+
+
+/* Portfolio Folder Animations */
+
+
+.pathfinderfolder {
+    display: inline-block;
+    width: 394px;
+    height: 264px;
+    background: transparent url("../images/pathfinder.svg") no-repeat 0 0;
+}
+
+.pathfinderfolder:hover {
+    background-position: -394px 0;
+}
+
+.secondfolder, .thirdfolder, .fourthfolder, .fifthfolder, .sixthfolder {
+    display: inline-block;
+    width: 394px;
+    height: 264px;
+    background: transparent url("../images/folder.svg") no-repeat 0 0;
+}
+
+.secondfolder:hover, .thirdfolder:hover, .fourthfolder:hover, .fifthfolder:hover, .sixthfolder:hover {
+    background-position: -394px 0;
+}
