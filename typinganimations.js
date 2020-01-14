@@ -2,14 +2,15 @@
 // My website, made using HTML, CSS, and JavaScript
 
 
-const TypeForward = function(element, word, typeSpeed) {
+// Typing Forward Animation
+
+
+const TypeForward = function(element, word) {
     this.element = element;
     this.word = word;
-    this.typeSpeed = typeSpeed;
     this.currentTxt = '';
     this.type();
 }
-
 
 TypeForward.prototype.type = function() {
     this.currentTxt = word.substring(0, this.currentTxt.length + 1);
@@ -17,24 +18,23 @@ TypeForward.prototype.type = function() {
     if (this.currentTxt == word) {
         return;
     }
-    setTimeout(() => this.type(), this.typeSpeed);
+    setTimeout(() => this.type(), 200);
 }
 
 
+// Specific Type Forward Animations
 
 
 function resumeTypeForward() {
     var element = document.querySelector(".resumetype");
     word = "Résumé"
-    typeSpeed = 200;
-    new TypeForward(element, word, typeSpeed);
+    new TypeForward(element, word);
 }
 
 function portfolioTypeForward() {
     var element = document.querySelector(".portfoliotype");
     word = "Portfolio"
-    typeSpeed = 200;
-    new TypeForward(element, word, typeSpeed);
+    new TypeForward(element, word);
 }
 
 function linksTypeForward() {
@@ -43,6 +43,9 @@ function linksTypeForward() {
     typeSpeed = 200;
     new TypeForward(element, word, typeSpeed);
 }
+
+
+// TypeWriter Animation
 
 
 const TypeWriter = function(element, words) {
@@ -55,7 +58,6 @@ const TypeWriter = function(element, words) {
     this.type();
     this.isDeleting = false;
 }
-
 
 TypeWriter.prototype.type = function() {
 
@@ -93,6 +95,9 @@ TypeWriter.prototype.type = function() {
     setTimeout(() => this.type(), typeSpeed)
 
     }
+
+
+// Specific TypeWriter Animations
 
 
 function descriptionTypeWriter() {

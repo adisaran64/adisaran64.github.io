@@ -67,24 +67,24 @@
                 <div class="folderflexbox" id="folders">
                     <ul>
                         <li class="pathfinderportfolio" id="pathfinder">
-                            <a class="pathfinderfolder" href="#"></a>
+                            <a class="pathfinderfolder" href="#portfolio"></a>
                         </li>
                         <li class="folder2portfolio" id="folder2">
-                            <a class="secondfolder" href="#"></a>
+                            <a class="secondfolder" href="#portfolio"></a>
                         </li>
                         <li class="folder3portfolio" id="folder3">
-                            <a class="thirdfolder" href="#"></a>
+                            <a class="thirdfolder" href="#portfolio"></a>
                         </li>
                     </ul>
                     <ul>
                         <li class="folder4portfolio" id="folder4">
-                            <a class="fourthfolder" href="#"></a>
+                            <a class="fourthfolder" href="#portfolio"></a>
                         </li>
                         <li class="folder5portfolio" id="folder5">
-                            <a class="fifthfolder" href="#"></a>
+                            <a class="fifthfolder" href="#portfolio"></a>
                         </li>
                         <li class="folder6portfolio" id="folder6">
-                            <a class="sixthfolder" href="#"></a>
+                            <a class="sixthfolder" href="#portfolio"></a>
                         </li>
                     </ul>
                 </div>
@@ -105,7 +105,7 @@
                             <p class="first-sentence">LinkedIn: <a href="#"></a></p>
                             <p class="second-sentence">GitHub:  <a href="https://github.com/adisaran64" target="_blank">github.com/adisaran64</a></p>
                             <p class="third-sentence">Website: <a href="#">adisaran64.com</a></p>
-                            <p class="fourth-sentence">Contact: adisaran64@berkeley.edu adisaran64@gmail.com</p>
+                            <p class="fourth-sentence">Contact: <a href="mailto:adisaran64@berkeley.edu" target="_top">adisaran64@berkeley.edu</a> <a href="mailto:adisaran64@gmail.com" target="_top">adisaran64@gmail.com</a></p>
                         </section>
                     </div>
                 </header>
@@ -127,22 +127,22 @@
                 <nav>
                     <ul>
                         <li id="home-py">
-                            <a href="#">
-                                <img src = "images/home.svg" alt="Home Page" class="nav-code-window1" onclick="showPage('homepage');">
+                            <a href="" class="homeimagecontainer">
+                                    <img src = "homeimages/home1.svg" alt="Home Page" class="nav-code-window1" onclick="showPage('homepage');">
                             </a>
                         </li>
                         <li id="resume-java">
-                            <a href="#">
-                                <img src = "images/resume.svg" alt="Resume" class="nav-code-window2" onclick="showPage('resumepage');">
+                            <a href="#resume" class="resumeimagecontainer">
+                                <img src = "resumeimages/resume1.svg" alt="Resume" class="nav-code-window2" onclick="showPage('resumepage');">
                             </a>
                         </li>
-                        <li id="portfolio-c">
-                            <a href="#">
+                        <li id="portfolio-c" class="portfolioimagecontainer">
+                            <a href="#portfolio">
                                 <img src = "images/portfolio.svg" alt="Portfolio" class="nav-code-window3" onclick="showPage('portfoliopage');">
                             </a>
                         </li>
-                        <li id="links-html">
-                            <a href='#'>
+                        <li id="links-html" class="linksimagecontainer">
+                            <a href='#links'>
                                 <img src = "images/links.svg" alt="Links" class="nav-code-window4" onclick="showPage('linkspage');">
                             </a>
                         </li>
@@ -156,9 +156,10 @@
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
             <script src="nav.js"></script>
-            <script src="jsanims.js"></script>
-            <script src="gsanims.js"></script>
-
+            <script src="typinganimations.js"></script>
+            <script src="navanimations.js"></script>
+            <script src="pagetransitions.js"></script>
+            <script src="initialize.js"></script>
 
 
 

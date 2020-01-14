@@ -2,12 +2,8 @@
 // My website, made using HTML, CSS, and JavaScript
 
 
-var tl = gsap.timeline();
-homePageAnimation(tl);
-descriptionTypeWriter();
-
-
 function playAnimation(pageName) {
+    tl.clear();
     if (pageName == 'homepage') {
         homePageAnimation();
     }
@@ -25,6 +21,7 @@ function playAnimation(pageName) {
 
 function homePageAnimation() {
     tl.fromTo(".name-text", {opacity: 0, x: -120}, {opacity: 1, x: 0, ease: "circ.out", duration: 1});
+    tl.fromTo(".typewrite-text", {opacity: 0, x: -120}, {opacity: 1, x: 0, ease: "circ.out", duration: 1}, "-=.75");
     tl.fromTo(".sub-text", {opacity: 0, y: -60}, {opacity: 1, y: 0, ease: "bounce.out", duration: 1.25}, "-=.75");
     playFooterAnimation();
 }
