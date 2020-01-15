@@ -43,7 +43,7 @@ a {
 #homepage .main {
     text-align: left;
     margin-left: 3.2rem;
-    margin-top: -4.75rem;
+    margin-top: -4.5rem;
 }
 
 #homepage .main .name-text {
@@ -75,7 +75,7 @@ a {
 #resumepage .rtitle {
     text-align: left;
     margin-left: 3.2rem;
-    margin-top: -4.75rem;
+    margin-top: -4.5rem;
 }
 
 #resumepage .resume-text {
@@ -105,7 +105,7 @@ a {
 #portfoliopage .ptitle {
     text-align: left;
     margin-left: 3.2rem;
-    margin-top: -4.75rem;
+    margin-top: -4.5rem;
 }
 
 #portfoliopage .portfolio-text {
@@ -137,7 +137,7 @@ a {
 #linkspage .ltitle {
     text-align: left;
     margin-left: 3.2rem;
-    margin-top: -4.75rem;
+    margin-top: -4rem;
 }
 
 #linkspage .links-text {
@@ -162,7 +162,6 @@ a {
 /* Footer Construction */
 
 footer {
-    font-family: 'Consolas'; sans-serif;
     position: absolute;
     left: 0;
     bottom: 0;
