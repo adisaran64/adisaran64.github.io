@@ -1,11 +1,11 @@
 // My Website - Aditya Saravanan
 // My website, made using HTML, CSS, and JavaScript
 
-var tl = gsap.timeline();
 var hometl = gsap.timeline({paused: true, repeat: -1});
 var resumetl = gsap.timeline({paused: true, repeat: -1});
 var portfoliotl = gsap.timeline({paused: true, repeat: -1});
 var linkstl = gsap.timeline({paused: true, repeat: -1});
+var tl = gsap.timeline();
 
 
 document.addEventListener("DOMContentLoaded", function(event) {

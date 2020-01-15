@@ -22,7 +22,7 @@ function playAnimation(pageName) {
 }
 
 
-// Specific Panel Animations
+// Create All Specific Panel Animations
 
 function homePageAnimation() {
     tl.fromTo(".name-text", {opacity: 0, x: -120}, {opacity: 1, x: 0, ease: "circ.out", duration: 1})
@@ -55,7 +55,7 @@ function linksPageAnimation() {
 }
 
 
-// Footer Transition Animation
+// Create Footer Transition Animation
 
 function playFooterAnimation(timeStart) {
     tl.fromTo(".nav-code-window1", {opacity: 0, scale: .5, y: 60}, {opacity: 1, scale: 1, y: 0, ease: "circ", overwrite:"all", duration: 1}, timeStart)

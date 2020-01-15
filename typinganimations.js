@@ -2,7 +2,7 @@
 // My website, made using HTML, CSS, and JavaScript
 
 
-// Typing Forward Animation
+// Create Typing Forward Animation
 
 const TypeForward = function(element, word) {
     this.element = element;
@@ -42,7 +42,7 @@ function linksTypeForward() {
 }
 
 
-// TypeWriter Animation
+// Create TypeWriter Animation
 
 const TypeWriter = function(element, words) {
     this.element = element;
