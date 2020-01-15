@@ -2,17 +2,18 @@
 // My website, made using HTML, CSS, and JavaScript
 
 
+// Handle Panel Switching
+
 function showPage(pageName) {
     var pageToShow = document.getElementById(pageName);
     if (!pageToShow) {
-        alert("That page doesn't exist!");
+        alert("You've selected a page that doesn't exist.");
         return;
     }
-
-    var allPages = document.getElementsByClassName('page');
+    var allPages = document.getElementsByClassName("page");
     for(var i = 0; i < allPages.length; i++) {
-        allPages[i].style.display = 'none';
+        allPages[i].style.display = "none";
     }
-
-    pageToShow.style.display = 'block';
+    playAnimation(pageName);
+    pageToShow.style.display = "block";
 }

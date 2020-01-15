@@ -2,13 +2,23 @@
 /* My website, made using HTML, CSS, and JavaScript */
 
 
+/* Basic Construction */
+
+html {
+    position: relative;
+    min-height: 100%;
+    scroll-behavior: smooth;
+}
+
 body {
-    margin: 0 0 100px;
+    margin: 0 0 22.5em;
     padding: 0;
     background-color: #142239;
     font-family: 'NSimSun'; sans-serif;
     color: #FFFFFF;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
 }
 
 ul {
@@ -17,17 +27,28 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+/* Homepage Construction */
 
 #homepage .main {
     text-align: left;
-    margin-left: 2.7em;
-    margin-top: -5em;
+    margin-left: 3.2rem;
+    margin-top: -4.75rem;
 }
 
 #homepage .main .name-text {
     font-size: 7em;
-    margin-bottom:-.45em;
+    margin-bottom: -3rem;
 }
 
 #homepage .main .typewrite-text {
@@ -37,10 +58,10 @@ ul {
 #homepage .sub-text {
     width: 27em;
     font-size: 1.15em;
+    margin-top: 2.75rem;
+    margin-right: 3.2rem;
     text-align: right;
-    margin-top: 2.3em;
-    margin-right: 2.7em;
-    line-height:1.2em;
+    line-height: 1.4rem;
 }
 
 #homepage .homepageflexbox {
@@ -49,13 +70,12 @@ ul {
 }
 
 
+/* Resume Page Construction */
 
-
-
-#resumepage .title {
+#resumepage .rtitle {
     text-align: left;
-    margin-left: 2.7em;
-    margin-top: -5em;
+    margin-left: 3.2rem;
+    margin-top: -4.75rem;
 }
 
 #resumepage .resume-text {
@@ -63,15 +83,15 @@ ul {
 }
 
 #resumepage .pdf {
-    margin-top: 2.3em;
-    margin-right: 2.7em;
-    margin-bottom: 8em;
-    width: 55em;
+    margin-top: 2.75rem;
+    margin-right: 3.2rem;
+    margin-bottom: 10rem;
+    width: 55rem;
 }
 
 #resumepage .pdf .my-resume {
     width: 100%;
-    height: 115vh;
+    height: 57vh;
 }
 
 #resumepage .resumepageflexbox {
@@ -80,25 +100,16 @@ ul {
 }
 
 
+/* Portfolio Page Construction */
 
-
-#portfoliopage .title {
+#portfoliopage .ptitle {
     text-align: left;
-    margin-left: 2.7em;
-    margin-top: -5em;
+    margin-left: 3.2rem;
+    margin-top: -4.75rem;
 }
 
 #portfoliopage .portfolio-text {
     font-size: 7em;
-}
-
-#portfoliopage .sub-text {
-    width: 27em;
-    font-size: 1.15em;
-    text-align: right;
-    margin-top: 2.3em;
-    margin-right: 2.7em;
-    line-height:1.2em;
 }
 
 #portfoliopage .portfoliopageflexbox {
@@ -106,28 +117,40 @@ ul {
     justify-content: space-between;
 }
 
+#portfoliopage .folderflexbox {
+    margin-top: -4rem;
+    margin-bottom: 32rem;
+}
+
+#portfoliopage .folderflexbox ul li {
+    margin-top: 6rem;
+}
+
+#portfoliopage .folderflexbox ul {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
+/* Links Page Construction */
 
-
-
-#linkspage .title {
+#linkspage .ltitle {
     text-align: left;
-    margin-left: 2.7em;
-    margin-top: -5em;
+    margin-left: 3.2rem;
+    margin-top: -4.75rem;
 }
 
 #linkspage .links-text {
     font-size: 7em;
 }
 
-#linkspage .sub-text {
+#linkspage .sub-text2 {
     width: 25em;
     font-size: 1.15em;
+    margin-top: 2.75rem;
+    margin-right: 3.2rem;
     text-align: right;
-    margin-top: 2.3em;
-    margin-right: 2.7em;
-    line-height:1.2em;
+    line-height: 1.4rem;
 }
 
 #linkspage .linkspageflexbox {
@@ -136,23 +159,7 @@ ul {
 }
 
 
-
-
-
-
-
-
-
-
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-
-body {
-    margin: 0 0 22.5em;
-}
+/* Footer Construction */
 
 footer {
     position: absolute;
@@ -162,32 +169,67 @@ footer {
     width: 100%;
 }
 
-nav ul  {
+footer nav ul  {
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
 }
 
 
+/* Cursor Animations */
+
+.typewrite-text .typetxt {
+    border-right: .08em solid #FFFFFF;
+    animation: animated-cursor 500ms infinite;
+}
+
+.resume-text .typetxt {
+    border-right: .08em solid #FFFFFF;
+    animation: animated-cursor 1s linear infinite;
+}
+
+.portfolio-text .typetxt {
+    border-right: .08em solid #FFFFFF;
+    animation: animated-cursor 1s linear infinite;
+}
+
+.links-text .typetxt {
+    border-right: .08em solid #FFFFFF;
+    animation: animated-cursor 1s linear infinite;
+}
+
+@keyframes animated-cursor {
+  from {border-right-color: #FFFFFF;}
+  to {border-right-color: transparent;}
+}
 
 
+/* Portfolio Folder Animations */
+
+.pathfinderfolder {
+    display: inline-block;
+    width: 394px;
+    height: 264px;
+    background: transparent url("/assets/images/projectimages/pathfinder.svg") no-repeat 0 0;
+}
+
+.pathfinderfolder:hover {
+    background-position: -394px 0;
+}
+
+.secondfolder, .thirdfolder, .fourthfolder, .fifthfolder, .sixthfolder {
+    display: inline-block;
+    width: 394px;
+    height: 264px;
+    background: transparent url("/assets/images/projectimages/folder.svg") no-repeat 0 0;
+}
+
+.secondfolder:hover, .thirdfolder:hover, .fourthfolder:hover, .fifthfolder:hover, .sixthfolder:hover {
+    background-position: -394px 0;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Beginning Panel Setup */
 
 #homepage {
     display: block;
