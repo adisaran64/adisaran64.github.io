@@ -7,7 +7,7 @@
 const TypeForward = function(element, word) {
     this.element = element;
     this.word = word;
-    this.currentTxt = '';
+    this.currentTxt = "";
     this.type();
 }
 
@@ -47,7 +47,7 @@ function linksTypeForward() {
 const TypeWriter = function(element, words) {
     this.element = element;
     this.words = words;
-    this.currentTxt = '';
+    this.currentTxt = "";
     this.wordIndex = 0;
     this.typeSpeed = 100;
     this.wait = 1250;
@@ -73,7 +73,7 @@ TypeWriter.prototype.type = function() {
         typeSpeed = this.wait;
         this.isDeleting = true;
     }
-    else if (this.isDeleting && this.currentTxt == '') {
+    else if (this.isDeleting && this.currentTxt == "") {
         this.isDeleting = false;
         this.wordIndex++;
         typeSpeed = 500;

@@ -7,16 +7,16 @@
 function playAnimation(pageName) {
     tl.progress(0).clear();
     window.scrollTo(0, 0);
-    if (pageName == 'homepage') {
+    if (pageName == "homepage") {
         homePageAnimation();
     }
-    if (pageName == 'resumepage') {
+    if (pageName == "resumepage") {
         resumePageAnimation();
     }
-    if (pageName == 'portfoliopage') {
+    if (pageName == "portfoliopage") {
         portfolioPageAnimation();
     }
-    if (pageName == 'linkspage') {
+    if (pageName == "linkspage") {
         linksPageAnimation();
     }
 }

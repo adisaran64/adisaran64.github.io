@@ -10,9 +10,9 @@ function showPage(pageName) {
         alert("You've selected a page that doesn't exist.");
         return;
     }
-    var allPages = document.getElementsByClassName('page');
+    var allPages = document.getElementsByClassName("page");
     for(var i = 0; i < allPages.length; i++) {
-        allPages[i].style.display = 'none';
+        allPages[i].style.display = "none";
     }
     playAnimation(pageName);
     pageToShow.style.display = "block";

@@ -1,0 +1,390 @@
+/* My Website - Aditya Saravanan */
+/* My website, made using HTML, CSS, and JavaScript */
+
+
+/* Media Queries for Text */
+
+@media only screen and (max-width: 1350px) {
+
+    #resumepage .rtitle {
+        margin-right: 3.2rem;
+    }
+
+    #resumepage .pdf {
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+        margin-bottom: 10rem;
+    }
+
+    #resumepage .resumepageflexbox {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    #portfoliopage .folderflexbox ul{
+        flex-wrap: wrap;
+    }
+
+    #portfoliopage .ptitle {
+        margin-right: 3.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    #homepage .main {
+        margin-right: 3.2rem;
+    }
+
+    #homepage .sub-text {
+        text-align: left;
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+        margin-bottom: 6rem;
+    }
+
+    #homepage .homepageflexbox {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    #linkspage .ltitle {
+        margin-right: 3.2rem;
+    }
+
+    #linkspage .sub-text2 {
+        text-align: left;
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+        margin-bottom: 6rem;
+    }
+
+    #linkspage .linkspageflexbox {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+
+    #homepage .main {
+        margin-top: -3rem;
+    }
+
+    #homepage .main .name-text {
+        font-size: 6em;
+        margin-bottom: -2rem;
+    }
+
+    #homepage .main .typewrite-text {
+        font-size: 2em;
+    }
+
+    #homepage .sub-text {
+        font-size: 1em;
+    }
+
+    #linkspage .ltitle {
+        margin-top: -3rem;
+    }
+
+    #linkspage .links-text {
+        font-size: 6em;
+    }
+
+    #linkspage .sub-text2 {
+        font-size: 1em;
+    }
+
+    #portfoliopage .ptitle {
+        margin-top: -3rem;
+    }
+
+    #portfoliopage .portfolio-text {
+        font-size: 6em;
+    }
+
+    #resumepage .rtitle {
+        margin-top: -3rem;
+    }
+
+    #resumepage .resume-text {
+        font-size: 6em;
+    }
+
+}
+
+@media only screen and (max-width: 510px) {
+
+    #homepage .main {
+        margin-top: -2rem;
+    }
+
+    #homepage .main .name-text {
+        font-size: 5em;
+        margin-bottom: -1.5rem;
+    }
+
+    #homepage .main .typewrite-text {
+        font-size: 1.75em;
+    }
+
+    #homepage .sub-text {
+        font-size: .85em;
+    }
+
+    #linkspage .ltitle {
+        margin-top: -2rem;
+    }
+
+    #linkspage .links-text {
+        font-size: 5em;
+    }
+
+    #linkspage .sub-text2 {
+        font-size: .85em;
+    }
+
+    #portfoliopage .ptitle {
+        margin-top: -2rem;
+    }
+
+    #portfoliopage .portfolio-text {
+        font-size: 5em;
+    }
+
+    #resumepage .rtitle {
+        margin-top: -2rem;
+    }
+
+    #resumepage .resume-text {
+        font-size: 5em;
+    }
+
+}
+
+@media only screen and (max-width: 440px) {
+
+    #homepage .main {
+        margin-top: -1rem;
+    }
+
+    #homepage .main .name-text {
+        font-size: 4em;
+        margin-bottom: -1rem;
+    }
+
+    #homepage .main .typewrite-text {
+        font-size: 1.5em;
+    }
+
+    #homepage .sub-text {
+        font-size: .7em;
+    }
+
+    #linkspage .ltitle {
+        margin-top: -1rem;
+    }
+
+    #linkspage .links-text {
+        font-size: 4em;
+    }
+
+    #linkspage .sub-text2 {
+        font-size: .7em;
+    }
+
+    #portfoliopage .ptitle {
+        margin-top: -1rem;
+    }
+
+    #portfoliopage .portfolio-text {
+        font-size: 4em;
+    }
+
+    #resumepage .rtitle {
+        margin-top: -1rem;
+    }
+
+    #resumepage .resume-text {
+        font-size: 4em;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+    #homepage .main {
+        margin-top: 0rem;
+    }
+
+    #homepage .main .name-text {
+        font-size: 3em;
+        margin-bottom:-.5rem;
+    }
+
+    #homepage .main .typewrite-text {
+        font-size: 1.25em;
+    }
+
+    #homepage .sub-text {
+        font-size: .55em;
+    }
+
+    #linkspage .ltitle {
+        margin-top: 0rem;
+    }
+
+    #linkspage .links-text {
+        font-size: 3em;
+    }
+
+    #linkspage .sub-text2 {
+        font-size: .55em;
+    }
+
+    #portfoliopage .ptitle {
+        margin-top: 0rem;
+    }
+
+    #portfoliopage .portfolio-text {
+        font-size: 3em;
+    }
+
+    #resumepage .rtitle {
+        margin-top: 0rem;
+    }
+
+    #resumepage .resume-text {
+        font-size: 3em;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+
+    #homepage .main {
+        margin-top: 1rem;
+    }
+
+    #homepage .main .name-text {
+        font-size: 2em;
+        margin-bottom: 0rem;
+    }
+
+    #homepage .main .typewrite-text {
+        font-size: 1em;
+    }
+
+    #homepage .sub-text {
+        font-size: .4em;
+    }
+
+    #linkspage .ltitle {
+        margin-top: 1rem;
+    }
+
+    #linkspage .links-text {
+        font-size: 2em;
+    }
+
+    #linkspage .sub-text2 {
+        font-size: .4em;
+    }
+
+    #portfoliopage .ptitle {
+        margin-top: 1rem;
+    }
+
+    #portfoliopage .portfolio-text {
+        font-size: 2em;
+    }
+
+    #resumepage .rtitle {
+        margin-top: 1rem;
+    }
+
+    #resumepage .resume-text {
+        font-size: 2em;
+    }
+
+}
+
+
+/* Media Query for Portfolio Folder Animations */
+
+@media only screen and (max-width: 440px) {
+
+    .pathfinderfolder {
+        display: inline-block;
+        width: 240px;
+        height: 161px;
+        background: transparent url("/assets/images/projectimages/pathfindersmall.svg") no-repeat 0 0;
+    }
+
+    .pathfinderfolder:hover {
+        background-position: -240px 0;
+    }
+
+    .secondfolder, .thirdfolder, .fourthfolder, .fifthfolder, .sixthfolder {
+        display: inline-block;
+        width: 240px;
+        height: 161px;
+        background: transparent url("/assets/images/projectimages/foldersmall.svg") no-repeat 0 0;
+    }
+
+    .secondfolder:hover, .thirdfolder:hover, .fourthfolder:hover, .fifthfolder:hover, .sixthfolder:hover {
+        background-position: -240px 0;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1600px) {
+
+
+    footer nav ul  {
+        flex-wrap: wrap;
+    }
+
+    footer nav ul li {
+        margin-top: 6rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    footer img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer ul li {
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+    }
+
+}
