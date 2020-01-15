@@ -347,33 +347,19 @@
 }
 
 
-
-
-
-
+/* Media Queries for Footer */
 
 @media only screen and (max-width: 1600px) {
-
 
     footer nav ul  {
         flex-wrap: wrap;
     }
 
     footer nav ul li {
-        margin-top: 6rem;
+        margin-top: 2.5rem;
     }
 
 }
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 800px) {
 
@@ -383,8 +369,8 @@
     }
 
     footer ul li {
-        margin-left: 3.2rem;
-        margin-right: 3.2rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 
 }
