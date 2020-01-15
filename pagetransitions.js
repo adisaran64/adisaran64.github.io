@@ -2,10 +2,10 @@
 // My website, made using HTML, CSS, and JavaScript
 
 
-// Handle All Panel Animations
+// Handle Panel Animations
 
 function playAnimation(pageName) {
-    tl.clear();
+    tl.progress(0).clear();
     window.scrollTo(0, 0);
     if (pageName == 'homepage') {
         homePageAnimation();
@@ -22,7 +22,7 @@ function playAnimation(pageName) {
 }
 
 
-// Create All Specific Panel Animations
+// Create Specific Panel Animations
 
 function homePageAnimation() {
     tl.fromTo(".name-text", {opacity: 0, x: -120}, {opacity: 1, x: 0, ease: "circ.out", duration: 1})

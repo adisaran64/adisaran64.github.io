@@ -2,6 +2,8 @@
 // My website, made using HTML, CSS, and JavaScript
 
 
+// Handle Panel Switching
+
 function showPage(pageName) {
     var pageToShow = document.getElementById(pageName);
     if (!pageToShow) {
@@ -12,7 +14,6 @@ function showPage(pageName) {
     for(var i = 0; i < allPages.length; i++) {
         allPages[i].style.display = 'none';
     }
-    tl.progress(0).clear();
     playAnimation(pageName);
     pageToShow.style.display = "block";
 }

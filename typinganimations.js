@@ -21,7 +21,7 @@ TypeForward.prototype.type = function() {
 }
 
 
-// Specific Type Forward Animations
+// Create Specific Type Forward Animations
 
 function resumeTypeForward() {
     var element = document.querySelector(".resumetype");
@@ -82,7 +82,7 @@ TypeWriter.prototype.type = function() {
 }
 
 
-// Specific TypeWriter Animations
+// Create Specific TypeWriter Animations
 
 function descriptionTypeWriter() {
     var element = document.querySelector(".descriptiontype");
