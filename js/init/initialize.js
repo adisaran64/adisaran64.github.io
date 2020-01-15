@@ -20,26 +20,11 @@ var linkstl = gsap.timeline({paused: true, repeat: -1});
 document.addEventListener("DOMContentLoaded", function(event) {
     window.addEventListener("load", function(e) {
         document.body.style.display = "block";
-
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-            homePageAnimation();
-            descriptionTypeWriter();
-            var homepy = document.getElementsByClassName("nav-code-window1");
-            var resumejava = document.getElementsByClassName("nav-code-window2");
-            var portfolioc = document.getElementsByClassName("nav-code-window3");
-            var linkshtml = document.getElementsByClassName("nav-code-window4");
-            homepy.src = "assets/images/mobileimages/home1.svg";
-            resumejava.src = "assets/images/mobileimages/resume1.svg";
-            portfolioc.src = "assets/images/mobileimages/portfolio1.svg";
-            linkshtml.src = "assets/images/mobileimages/links1.svg";
-        }
-        else {
-            homePageAnimation();
-            descriptionTypeWriter();
-            createHomeAnimation();
-            createResumeAnimation();
-            createPortfolioAnimation();
-            createLinksAnimation();
-        }
+        homePageAnimation();
+        descriptionTypeWriter();
+        createHomeAnimation();
+        createResumeAnimation();
+        createPortfolioAnimation();
+        createLinksAnimation();
     }, false);
 });
