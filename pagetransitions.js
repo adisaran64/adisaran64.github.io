@@ -2,6 +2,8 @@
 // My website, made using HTML, CSS, and JavaScript
 
 
+// Handle All Panel Animations
+
 function playAnimation(pageName) {
     tl.clear();
     window.scrollTo(0, 0);
@@ -20,32 +22,31 @@ function playAnimation(pageName) {
 }
 
 
+// Specific Panel Animations
+
 function homePageAnimation() {
-    tl.fromTo(".name-text", {opacity: 0, x: -120}, {opacity: 1, x: 0, ease: "circ.out", duration: 1});
-    tl.fromTo(".typewrite-text", {opacity: 0, x: -120}, {opacity: 1, x: 0, ease: "circ.out", duration: 1}, "-=.75");
-    tl.fromTo(".sub-text", {opacity: 0, y: -60}, {opacity: 1, y: 0, ease: "bounce.out", duration: 1.25}, "-=.75");
+    tl.fromTo(".name-text", {opacity: 0, x: -120}, {opacity: 1, x: 0, ease: "circ.out", duration: 1})
+      .fromTo(".typewrite-text", {opacity: 0}, {opacity: 1, ease: "power4.out", duration: 1}, "-=.75")
+      .fromTo(".sub-text", {opacity: 0, y: -60}, {opacity: 1, y: 0, ease: "bounce.out", duration: 1.25}, "-=.75");
     playFooterAnimation();
 }
-
 
 function resumePageAnimation() {
     resumeTypeForward();
     tl.fromTo(".my-resume", {opacity:0, y: -120}, {opacity: 1, y: 0, ease: "circ.out", duration: 1.25});
-    playFooterAnimation("-=.35");
+    playFooterAnimation("-=.4");
 }
-
 
 function portfolioPageAnimation() {
     portfolioTypeForward();
     tl.fromTo(".pathfinderfolder", {opacity:0, x: 60, y: -60}, {opacity: 1, x: 0, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25})
-               .fromTo(".secondfolder", {opacity:0, y: -60}, {opacity: 1, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1")
-               .fromTo(".thirdfolder", {opacity:0, x: -60, y: -60}, {opacity: 1, x: 0, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1")
-               .fromTo(".fourthfolder", {opacity:0, x: 60, y: 60}, {opacity: 1, x: 0, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1")
-               .fromTo(".fifthfolder", {opacity:0, y: 60}, {opacity: 1, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1")
-               .fromTo(".sixthfolder", {opacity:0, x: -60, y: 60}, {opacity: 1, x: 0, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1");
+      .fromTo(".secondfolder", {opacity:0, y: -60}, {opacity: 1, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1")
+      .fromTo(".thirdfolder", {opacity:0, x: -60, y: -60}, {opacity: 1, x: 0, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1")
+      .fromTo(".fourthfolder", {opacity:0, x: 60, y: 60}, {opacity: 1, x: 0, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1")
+      .fromTo(".fifthfolder", {opacity:0, y: 60}, {opacity: 1, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1")
+      .fromTo(".sixthfolder", {opacity:0, x: -60, y: 60}, {opacity: 1, x: 0, y: 0, ease: "slow(0.7, 0.7, false)", duration: 1.25}, "-=1");
     playFooterAnimation("-=1");
 }
-
 
 function linksPageAnimation() {
     linksTypeForward();
@@ -53,6 +54,8 @@ function linksPageAnimation() {
     playFooterAnimation("-=.4");
 }
 
+
+// Footer Transition Animation
 
 function playFooterAnimation(timeStart) {
     tl.fromTo(".nav-code-window1", {opacity: 0, scale: .5, y: 60}, {opacity: 1, scale: 1, y: 0, ease: "circ", overwrite:"all", duration: 1}, timeStart)
