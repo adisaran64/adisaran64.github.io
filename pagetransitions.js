@@ -4,6 +4,7 @@
 
 function playAnimation(pageName) {
     tl.clear();
+    window.scrollTo(0, 0);
     if (pageName == 'homepage') {
         homePageAnimation();
     }
