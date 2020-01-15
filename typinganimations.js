@@ -78,7 +78,7 @@ TypeWriter.prototype.type = function() {
         this.wordIndex++;
         typeSpeed = 500;
     }
-    setTimeout(() => this.type(), typeSpeed)
+    setTimeout(() => this.type(), typeSpeed);
 }
 
 
