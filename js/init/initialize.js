@@ -24,10 +24,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
             homePageAnimation();
             descriptionTypeWriter();
-            document.getElementsByClassName(".nav-code-window1").src="assets/images/mobileimages/home1.svg";
-            document.getElementsByClassName(".nav-code-window2").src="assets/images/mobileimages/resume1.svg";
-            document.getElementsByClassName(".nav-code-window3").src="assets/images/mobileimages/portfolio1.svg";
-            document.getElementsByClassName(".nav-code-window4").src="assets/images/mobileimages/links1.svg";
         }
         else {
             homePageAnimation();
