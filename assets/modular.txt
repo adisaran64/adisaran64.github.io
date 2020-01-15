@@ -1,3 +1,6 @@
+My Website - Aditya Saravanan
+My website, made using HTML, CSS, and JavaScript
+
 Change the TypeWriter: array at bottom of typinganimations.js
 Change resume: put new "resume.pdf" in assets folder
 Change entry description: add sentence to index.html
