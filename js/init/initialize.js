@@ -7,14 +7,6 @@
 var tl = gsap.timeline();
 
 
-// Create Sub-Timelines for Nav Hover Animations
-
-var hometl = gsap.timeline({paused: true, repeat: -1});
-var resumetl = gsap.timeline({paused: true, repeat: -1});
-var portfoliotl = gsap.timeline({paused: true, repeat: -1});
-var linkstl = gsap.timeline({paused: true, repeat: -1});
-
-
 // Prevent Flickering on Load with Pre-Loading Before Start of Timeline
 
 document.addEventListener("DOMContentLoaded", function(event) {
@@ -22,9 +14,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.body.style.display = "block";
         homePageAnimation();
         descriptionTypeWriter();
-        createHomeAnimation();
-        createResumeAnimation();
-        createPortfolioAnimation();
-        createLinksAnimation();
     }, false);
 });

@@ -175,6 +175,36 @@ footer nav ul  {
     justify-content: space-evenly;
 }
 
+.homeimagecontainer {
+    display: inline-block;
+}
+
+.nav-code-window1 {
+    pointer-events: none;
+}
+
+.resumeimagecontainer {
+    display: inline-block;
+}
+
+.nav-code-window2 {
+    pointer-events: none;
+}
+
+.portfolioimagecontainer {
+    display: inline-block;
+}
+
+.nav-code-window3 {
+    pointer-events: none;
+}
+
+.linksimagecontainer {
+    display: inline-block;
+}
+.nav-code-window4 {
+    pointer-events: none;
+}
 
 /* Cursor Animations */
 
