@@ -1,11 +1,15 @@
 My Website - Aditya Saravanan
 My website, made using HTML, CSS, and JavaScript
 
-Change the TypeWriter: array at bottom of typinganimations.js
+Change the typewriter: array at bottom of typinganimations.js
+
 Change resume: put new "resume.pdf" in assets folder
+
 Change entry description: add sentence to index.html
-Change portfolio: 1. Create images (Adobe XD) (Big & small, correct dimensions)
-		  2. Change names in html (For li - change class & id, for a - change class)
-		  3. Change href in html
-		  4. In style.css, go to Portfolio Folder Animations, change names and source images
-		  5. In mediaqueries.css, go to Media Query for Portfolio Folder Animations, change names and source images
+
+Change portfolio:
+1. Create images (Adobe XD) (Big & small, correct dimensions) (background transparent, convert text to path)
+2. Change names in html (For li - change class & id, for a - change class)
+3. Change href in html
+4. In style.css, go to Portfolio Folder Animations, change names and source images
+5. In mediaqueries.css, go to Media Query for Portfolio Folder Animations, change names and source images

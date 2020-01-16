@@ -349,19 +349,7 @@
 
 /* Media Queries for Footer */
 
-@media only screen and (max-width: 1600px) {
-
-    footer nav ul  {
-        flex-wrap: wrap;
-    }
-
-    footer nav ul li {
-        margin-top: 2.5rem;
-    }
-
-}
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
 
     footer img {
         width: 100%;
