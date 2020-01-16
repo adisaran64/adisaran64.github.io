@@ -14,5 +14,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.body.style.display = "block";
         homePageAnimation();
         descriptionTypeWriter();
+        homeNavAnimation();
+        resumeNavAnimation();
+        portfolioNavAnimation();
+        linksNavAnimation();
     }, false);
 });
