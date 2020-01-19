@@ -13,6 +13,3 @@ Change portfolio:
 3. Change href in html
 4. In style.css, go to Portfolio Folder Animations, change names and source images
 5. In mediaqueries.css, go to Media Query for Portfolio Folder Animations, change names and source images
-
-Font: 
-Change website address.
